@@ -17,7 +17,7 @@ public class Driver {
         System.out.println("[Before Scenario:]");
 
         /*
-         * The equals method comes from if the object 
+         * The 'equals' method comes from if the object 
          * "equals one another"
          * comes from the Object root of the class hierarchy
          * also implements an equal relation on objects that
