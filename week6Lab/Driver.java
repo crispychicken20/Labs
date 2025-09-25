@@ -19,6 +19,9 @@ public class Driver {
         /*
          * The equals method comes from if the object 
          * "equals one another"
+         * comes from the Object root of the class hierarchy
+         * also implements an equal relation on objects that
+         * are non-null references.
          */
 
         System.out.println(a.equals(b));
