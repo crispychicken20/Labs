@@ -17,7 +17,8 @@ public class Driver {
         System.out.println("[Before Scenario:]");
 
         /*
-         * The equals method comes from 
+         * The equals method comes from if the object 
+         * "equals one another"
          */
 
         System.out.println(a.equals(b));
