@@ -15,19 +15,19 @@ public class Data1 {
         this.num = n;
     }
 
-//     @Override
-//     public boolean equals(Object OBJ) {
-//         if(this == OBJ) {
-//             return true;
-//         }
+    @Override
+    public boolean equals(Object OBJ) {
+        if(this == OBJ) {
+            return true;
+        }
 
-//         if(OBJ == null || getClass() != OBJ.getClass()) {
-//             return false;
-//         }
+        if(OBJ == null || getClass() != OBJ.getClass()) {
+            return false;
+        }
 
 
-//         return this.num == OBJ.getNum();
-//     }
+        return this.num == ((Data1) OBJ).getNum();
+    }
 }
 
     
