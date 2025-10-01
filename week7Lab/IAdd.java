@@ -4,9 +4,9 @@ package week7Lab;
 
 public interface IAdd {
 
-    int add_aaa(int x, int y); // adds x and y and returns the value
+    public int add_aaa(int x, int y); // adds x and y and returns the value
 
-    int get_x(); // gets x
+    public int get_x(); // gets x
 
-    int get_y(); // get y
+    public int get_y(); // get y
 }
