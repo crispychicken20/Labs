@@ -1,4 +1,4 @@
-package School.week6Lab;
+package week6Lab;
 
 public class Data1 {
     private int num;
