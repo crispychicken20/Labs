@@ -30,8 +30,4 @@ public class changeInterface implements IAdd{
         this.y = new_value;
     }
 
-    public static void main(String[] args) {
-        
-    }
-    
 }
