@@ -16,14 +16,20 @@ public class Driver {
         int y = 5;
         int z = 12;
 
-        math.add(x, y, z);
+        int sum = math.add(x, y, z);
+
+        System.out.println("Sum: " + sum);
 
         int starting_value = 60;
-        math.subtract(starting_value, x, y);
+        int minus = math.subtract(starting_value, x, y);
 
-        math.divide(x, y);
+        System.out.println("Subtraction: " + minus);
 
-        math.multiply(x, y);
+        int valDivided = math.divide(x, y);
+        System.out.println("Divided: " + valDivided);
+
+        int valMultipled = math.multiply(x, y);
+        System.out.println("Multiplied: " + valMultipled);
 
 
     }
